@@ -111,9 +111,9 @@ span {
   font-size: 25px;
   margin-top: 35px;
   padding: 15px 30px;
-  background-color: beige;
+  background-color: white;
   border: none;
-  border-radius: 25px;
+  border-radius: 50px;
   transition: 0.5s;
 }
 
@@ -128,6 +128,7 @@ main {
   min-height: 100vh;
   position: relative;
   overflow: hidden;
+  background-color: rgb(245, 237, 228);
 }
 
 @keyframes swing {
@@ -150,7 +151,7 @@ main {
 }
 
 .left {
-  position: relative;
+  position: absolute;
   left: -150px;
   animation: swing-left 5s ease-in-out 0s infinite alternate;
 }
@@ -161,4 +162,24 @@ main {
   bottom: 0;
   right: -100px;
   animation: swing 5s ease-in-out 0s infinite alternate;
+}
+
+.find{
+    width: 30%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.find img{
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.find h2{
+    font-size: 3.5em;
+    color: rgb(1, 88, 1);
+}
+
+.fbtn{
+    background-color: rgb(90, 240, 90);
 }
