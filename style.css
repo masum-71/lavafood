@@ -52,7 +52,7 @@ nav {
 }
 
 .nav-links > li a {
-  color: green;
+  color: white;
   text-decoration: none;
 }
 
@@ -69,7 +69,7 @@ nav {
   padding: 0 20px;
 }
 .sub-links li a {
-  transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.35s;
 }
 
 .sub-links li a:hover {
@@ -78,4 +78,47 @@ nav {
 
 .nav-links li:hover .sub-links {
   display: block;
+}
+
+.info{
+    width: 40%;
+    height: calc(100vh - 220px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.info h1{
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+span{
+    text-decoration: underline;
+}
+
+.description{
+    color: white;
+    font-size: 25px;
+}
+
+.btn{
+    font-size: 25px;
+    margin-top: 35px;
+    padding: 15px 30px;
+    background-color: beige;
+    border: none;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
 }
