@@ -183,3 +183,50 @@ main {
 .fbtn{
     background-color: rgb(90, 240, 90);
 }
+
+.lovers{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h3{
+    font-size: 2.5em;
+    color: green;
+}
+.reviews{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.review{
+    width: 30%;
+    background-color: rgba(252, 255, 255, 0.443);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 50px 10px;
+    z-index: 1;
+}
+
+.review img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 100px 0 50px 0;
+}
+
+.review p{
+    font-size: 20px;
+    color: rgb(79, 85, 78);
+}
+
+h4{
+    font-size: 2em;
+}
+
+#at{
+    color: rgb(120, 117, 117);
+    font-size: 16px;
+}
+
